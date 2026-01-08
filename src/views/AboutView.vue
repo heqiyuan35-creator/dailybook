@@ -3,10 +3,12 @@
   <div class="about">
     <h1>This is an about page</h1>
     <button @click="change">点击</button>
+    <myzujian ></myzujian>
   </div>
 </template>
 <script setup>
 import { ref } from 'vue';
+import myzujian from "../components/myzujian.vue"
 
 
   let n=ref(10)
