@@ -1,3 +1,4 @@
+
 <template>
   <div class="about">
     <h1>This is an about page</h1>
@@ -7,10 +8,12 @@
 <script setup>
 import { ref } from 'vue';
 
+
   let n=ref(10)
   function change(){
     n++
   }
+  let m=ref(10)
 
 </script>
 <style>
