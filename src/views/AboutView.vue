@@ -1,7 +1,7 @@
 
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>This is an about page{{ n }}</h1>
     <button @click="change">点击</button>
     <myzujian ></myzujian>
   </div>
