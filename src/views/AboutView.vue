@@ -3,7 +3,7 @@
   <div class="about">
     <h1>This is an about page{{ n }}</h1>
     <button @click="change">点击</button>
-    <myzujian ></myzujian>
+    <myzujian :myProps="n"></myzujian>
   </div>
 </template>
 <script setup>
@@ -13,9 +13,8 @@ import myzujian from "../components/myzujian.vue"
 
   let n=ref(10)
   function change(){
-    n++
+    n.value++
   }
-  let m=ref(10)
 
 </script>
 <style>
